@@ -1,0 +1,6 @@
+img {
+    max-width: 30vh;
+    max-height : 30vh;
+    object-fit: fill;
+    border-radius: 100%;
+   }

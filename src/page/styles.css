@@ -1,0 +1,268 @@
+:root{
+  --primary-color: #ee1a4f;
+  --dark-color: #181616;
+  --light-color: #ffffff;
+  --danger-color: #f12323;
+  --success-color: #6bff3e;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.a{
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #666;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width:  500px;
+  margin: auto;
+  overflow: hidden;
+  width: 5rem;
+  height: 2rem;
+}
+
+.x-large{
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large{
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.lead{
+  font-size: 1.0rem;
+}
+
+.small{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: var(--dark-color);
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Gabarito';
+}
+.small-log{
+  font-size: 1rem;
+  color: #5156F8;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 11rem;
+  font-family: 'Gabarito';
+  /* input information login,sign up */
+}
+.smaller{
+  font-size: 0.85rem;
+  color: var(--dark-color);
+  text-align: center;
+  font-family: 'Gabarito';
+}
+.size-head{
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: 'Gabarito';
+  color: #ffde08; /* CIRCUITS AND ELECTRONICS(loginsignup)*/
+}
+
+.size-headHome{
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: 'Gabarito';
+  color: #ffde08; /*01236254 CIRCUITS AND ELECTRONICS(home)*/
+  padding-left: 5%;
+}
+
+.text-center{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 450; /*Already have an account?*/
+  font-family: 'Gabarito';
+}
+
+.text-left{
+  text-align:left ;
+  font-size: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-dark{
+  color: var(--dark-color);
+}
+
+.text-success{
+  color: var(--success-color);
+}
+
+.text-danger{
+  color: var(--danger-color);
+}
+
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+.bg-primary{
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  text-align: left;
+  font-size: 0.5rem;
+  padding: 0.75rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 90vh;
+  margin-left: 67vh;
+  margin-right: 67vh;
+  margin-top: 3.15vh;
+  margin-bottom: 3.15vh;
+  border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boxx{
+  align-items: center;
+  min-width: 18rem;
+  background-color: #ffde08;
+  color: #4247c7;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-family: 'Gabarito';
+}
+
+.teacher{
+  background-color: #851e1e;
+  color: var(--light-color);
+  align-items: center;
+}
+
+.signup{
+  padding-right: 3rem;
+}
+
+.text-bottom{
+  text-align: center;
+  padding-right: 1.4rem;
+}
+
+.background{
+  background-color: #4247c7 ;
+  background-size:cover ;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.background2{
+  background-color: #E4E6EA ;
+  background-size:cover ;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.backgroundcolor{
+  background-color:#ffffff;
+  background-repeat: no-repeat;
+  background-position: flex-start;
+  height: fit-content;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+.text{
+  color: #EBD755;
+}
+.text-input{
+  min-width: 18rem;
+  font-size: 1rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: 'Gabarito';
+  border-radius: 30px;
+  border-color: white;
+  /* box input information */
+}
+.Homepage {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.error{
+  font-size: 1rem ;
+  color: var(--danger-color);
+}
